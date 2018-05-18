@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "browserify test/index.js > bundle.js",
-    "test": "budo src/index.js:bundle.js --live --ssl --cors --open"
+    "test": "budo test/index.js:bundle.js --live --ssl --cors --open"
   },
   "keywords": [
     "fetch",
