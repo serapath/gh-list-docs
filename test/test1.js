@@ -1,8 +1,8 @@
-var fetchdocs = require('../')
+var ghlistdocs = require('../')
 
 module.exports = {
-  'should generate array': function () {
-    if (typeof fetchdocs === 'function') done(null, 'success')
+  'should generate array': function (done) {
+    if (typeof ghlistdocs === 'function') done(null, 'success')
     else done('fail')
   }
 }
